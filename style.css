@@ -1,0 +1,98 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1{
+    padding: 10px;
+    color:rgb(56, 83, 165);
+    font-weight: 900;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+    
+.container {
+
+    padding: 30px;
+    background-color: rgb(208, 206, 205);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    opacity: 0.9;
+}
+.button{
+
+    display: flex;
+    gap:40px;
+    margin: 30px 0;
+}
+
+button{
+
+
+    padding: 15px;
+    font-size: 55px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+    
+}
+
+#rock{
+
+background: rgb(0, 128, 255) ;
+
+}
+
+#paper{
+
+    background: rgb(251, 255, 0) ;
+}
+
+#scissors{
+    background: rgb(72, 164, 58) ;
+
+}
+
+.your-score{
+
+     padding: 15px;
+     margin-top: 10px;
+     font-size: 30px;
+     font-weight: 900;
+    color: rgb(165, 56, 81);
+}
+
+.machine-score{
+
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 900;
+   color: rgb(160, 56, 165);
+
+}
+.result {
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 900;
+   color: rgb(56, 165, 109);
+
+
+}
